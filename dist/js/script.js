@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const request = new XMLHttpRequest();
             request.open('POST', 'server.php');
 
-            request.setRequestHeader('Content-type', 'multipart/form-data');
+            // request.setRequestHeader('Content-type', 'multipart/form-data');
             const formData = new FormData(form);
 
             request.send(formData);
